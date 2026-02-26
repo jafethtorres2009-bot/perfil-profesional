@@ -1,0 +1,64 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* BODY */
+body{
+    background: radial-gradient(circle at top right, #4dcbf5, #0a0f1c 70%);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+/* TITULO */
+h1{
+    font-size:2.5rem;
+    margin-bottom:20px;
+    letter-spacing:2px;
+}
+
+/* LINKS COMO BOTONES */
+a{
+    display:inline-block;
+    text-decoration:none;
+    color:#00e0ff;
+    border:2px solid #00e0ff;
+    padding:10px 25px;
+    margin:10px 0;
+    border-radius:30px;
+    transition:0.3s ease;
+    font-weight:bold;
+}
+
+a:hover{
+    background:#00e0ff;
+    color:black;
+    box-shadow:0 0 20px #00e0ff;
+    transform:scale(1.1);
+}
+
+/* FOTO PERFIL (si tienes img) */
+img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+    border:4px solid #00e0ff;
+    box-shadow:0 0 25px rgba(0,224,255,0.7);
+    margin:20px 0;
+}
+
+/* SECCIONES */
+section, div{
+    margin-top:30px;
+}
+
+/* SUBTITULOS */
+h2{
+    color:#00e0ff;
+    margin-bottom:10px;
+}
